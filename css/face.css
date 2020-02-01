@@ -1,0 +1,257 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: #2851A3;
+    width: 100%;
+    height: 84px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.face{
+    color:white;
+    padding-top: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Fredoka One', cursive;
+    margin-left: 150px;
+}
+
+.logo{
+    width: 50%;
+    float: left;
+    
+}
+
+.login{
+    width: 50%;
+    float: left;
+    color: white;
+    padding-top: 6px;
+   
+    padding-left: 100px;
+  
+}
+.user{
+    float: left;
+    padding-right: 15px;
+}
+label{
+    font-size: 12px;
+}
+
+a.Forgotten{
+    font-size: 12px;
+    color:#8babdb;
+    text-decoration: none;
+}
+a.Forgotten:hover{text-decoration: underline;
+    color:#8babdb;}
+.login input[type=text], input[type=password] {
+   
+    width: 150px;
+    height: 25px;
+}
+.login input[type=submit]{
+  font-size: 12px;
+  width: 50px;
+  height: 25px;
+  border: 0;
+  
+  margin-top: 30px;
+  color: white;
+  background-color: rgb(20, 93, 187);
+  font-weight: bold;
+}
+.login input[type=submit]:hover{
+    background-color: rgb(14, 64, 129);
+}
+
+/*-------------------------- The Content-----------------------------------------------------------*/
+
+.content{
+  width: 100%;
+  background:-webkit-linear-gradient(bottom,#D3D8E8,white);
+  height:650px; 
+}
+
+
+.imga{
+    width: 46%;
+    float: left;
+    
+    
+    padding-top: 40px;
+}
+.imga .sora{
+    margin-top: 5px;
+}
+.imga .intro{
+    font-weight: bolder;
+    font-size: 20px;
+    color:rgb(28, 56, 110);
+}
+
+.forma{
+    width: 44%;
+    float: left;
+    margin-left: 10%;
+    padding-top: 35px;
+    
+}
+.creat{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.creat-disc{
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 26px;
+    display: block;
+}
+
+.forma .bloc{
+    display: block;
+    width: 93.5%;
+    border: 0;
+    border: 1px solid #ddd;
+    outline: 0;
+    height: 5px;
+    padding: 17px 0 17px 8px;
+    margin: 12px 0 0 0;
+    font-size: 18px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.beside{
+    border: 0;
+    border: 1px solid #ddd;
+    outline: 0;
+    height: 5px;
+    /* width: 200px; */
+    width: 45%;
+    margin-right: 10px;
+    padding: 17px 0 17px 8px;
+    font-size: 18px;
+    border-radius: 3px;
+    background-color: white;
+}
+.part-two label{
+   
+    display: block;
+    margin-bottom: 7px;
+    font-size: 17px;
+    font-weight: bold;
+    color:gray;
+
+}
+.gen{
+    margin-top: 20px;
+}
+.part-two input[type="submit"]{
+    background-color: rgb(47, 165, 47);
+    height: 40px;
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    border: 0;
+    border-radius: 5px;
+    outline: 0;
+    color: white;
+    font-weight: 300;
+    font-size: 19px;  
+}
+
+.ques{
+    color: gray;
+    margin-left: 10px;
+}
+
+
+.part-two input[type="radio"]{
+    margin-right: 7px;
+    margin-left: 12px;
+    
+}
+
+
+.discr{
+    
+    font-size: 12px;
+    margin-top: 18px;
+    width: 350px;
+    color: grey;
+}
+.discr a{
+    color: #385898;
+}
+
+.guide{
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+}
+
+/*-------------------------------------------------links-------------------------------------*/
+
+.links{
+    
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.groupone{
+    font-size: 13px;
+
+}
+.groupone a{
+    margin-left: 5px;
+    color: #385898;
+    
+}
+.groupone i{
+    font-size: 12px;
+    background:rgb(236, 235, 235);
+    border: 1px solid rgb(165, 163, 163);
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+    line-height:20px;
+    text-align: center;
+    margin-left: 5px;
+}
+.groupone i:hover{
+    background: rgb(209, 207, 207) ;
+}
+
+.grayy{
+    background:#dddfe2;
+    display: block;
+    height: 1px;
+    margin-top: 10px;
+}
+.facelinks{
+    margin-top: 10px;
+}
+
+.facelinks a{
+    color: #385898;
+    font-size: 12px;
+}
+.footer{
+    font-size: 12px;
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
